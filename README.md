@@ -11,3 +11,6 @@ Testing the registration service using this Git Bash :
 }'`
 
 firstName & lastName - nume client, email -> adresa de e-mail a clientului.
+
+
+TODO Views, pages, htmls
