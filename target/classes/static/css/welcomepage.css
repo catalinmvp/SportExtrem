@@ -1,0 +1,109 @@
+.body   {
+    display: grid;
+    background-image: url("../img/golfclubs.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 80vh;
+    grid-row: 2/3;
+
+
+
+}
+
+
+.body2   {
+    display: grid;
+    background-image: url("../img/golfclubs.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 70vh;
+    grid-row: 2/3;
+
+
+
+}
+
+#leftbody{
+    grid-column: 1;
+    text-align: center;
+    display: flex;
+    padding-right: 5vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/om1.jpg");
+    background-size: 100% 100%;
+
+}
+
+#midle{
+    grid-column: 2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+#textmiddle{
+    padding-top: 10%;
+    position: absolute;
+    font-size: 1.5em;
+
+}
+
+
+#rightbody{
+    grid-column: 3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/om1.jpg");
+    background-size: 100% 100%;
+}
+
+.footer{
+    height: 15vh;
+    background: rgb(159, 231, 152);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-row: 3/3;
+}
+
+.footer-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.footer-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-right a{
+    margin: 0 5px;
+}
+
+.footer-right a img{
+    height: 40px;
+}
+
+#form{
+    grid-column: 2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
