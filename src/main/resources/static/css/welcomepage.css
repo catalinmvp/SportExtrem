@@ -1,6 +1,5 @@
 .body   {
     display: grid;
-    background-image: url("../img/golfclubs.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -14,7 +13,6 @@
 
 .body2   {
     display: grid;
-    background-image: url("../img/golfclubs.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -32,7 +30,6 @@
     padding-right: 5vh;
     justify-content: center;
     align-items: center;
-    background-image: url("../img/om1.jpg");
     background-size: 100% 100%;
 
 }
@@ -62,7 +59,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../img/om1.jpg");
     background-size: 100% 100%;
 }
 
