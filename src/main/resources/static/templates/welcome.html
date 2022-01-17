@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="" th:href="@{/css/welcomepage.css}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" th:href="@{'/'}">Luxury Golf Club</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a th:href="@{'/'}">Home</a></li>
+            <li><a th:href="@{'/virtual'}">Virtual Visit</a></li>
+            <li><a th:href="@{'/reserve'}">Reserve Now</a></li>
+            <li><a th:href="@{'/shop'}">Shop</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a th:href="@{'/register'}"><span class="glyphicon glyphicon-user"></span> Register</a></li>
+            <li><a th:href="@{'/login'}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+    </nav>
+
+        <div class="body">
+                <div id="leftbody">
+                        <h2>Text for left</h2>
+                </div>
+                <div id="middle">
+                    <h2 id="textmiddle">
+                        Are you ready to compete with champions from different countrie? <br>
+                        Are you ready to show the world how good you are? <br>
+                        Or is just a hobby for weekend to spend your time? <br>
+                        Become a VIP and conquer the Golf world!<br>
+                        <a th:href="@{'/register'}" id="textmiddle2">Become a VIP</a><br>
+                        Come and Reserve now<br>
+                        <a th:href="@{'/reserve'}" id="textmiddle3">Reserve Now</a>
+                    </h2>
+                   
+                </div>
+                <div id="rightbody">
+                        <h2>Text for right</h2>
+                </div>
+        </div>
+        <div class="footer">
+
+            <div class="footer-left">
+                <p>Email: luxurygoldclub@yahoo.com</p>
+                <p>Facebook: Luxury Golf Club</p>
+                <p>Telephone: 07****</p>
+            </div>
+    
+            <div class="footer-right">
+                <h3>Follow us:</h3>
+                <a th:href="@{'https://www.instagram.com'}"><img th:src="@{/img/insta.png}" alt=""></a>
+            </div>
+        </div>
+</body>
+</html>
