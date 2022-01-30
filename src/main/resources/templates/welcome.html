@@ -4,29 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <link rel="shortcut icon" type="image/png" href="logo.png">
+    <link href="magic-mouse.css" rel="stylesheet" />
     <link rel="stylesheet" href="" th:href="@{/css/welcomepage.css}">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Magnum Opus Hub</title>
 </head>
 <body>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" th:href="@{'/'}"></a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li><a th:href="@{'/'}">Home</a></li>
-            <li><a th:href="@{'/virtual'}">Virtual Visit</a></li>
+<div class="navigation">
+    <img th:src="@{/css/img/logo.png}" alt="logo">
+    <div class="menu">
+        <a class="focused_link" th:href="@{'/'}">Home</a>
+        <a th:href="@{'/about'}">About</a>
+        <a href="">Events</a>
+        <a href="">Get in Touch</a>
+        <a th:href="@{'/register'}">Register</a>
+    </div>
+    <div class="profile">
+        <a th:href="@{'/login'}">Login</a>
+        <img th:src="@{/css/img/profile.png}" alt="profile">
+    </div>
+</div>
+<div class="container-main">
 
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a th:href="@{'/register'}"><span class="glyphicon glyphicon-user"></span> Register</a></li>
-            <li><a th:href="@{'/login'}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-          </ul>
+    <div class="left-side">
+        <div class="content">
+            <h1>series of digital art Exhibition <img th:src="@{/css/img/maneta.png}" alt=""></h1>
+            <p>This initiative came from the need of digital art exposure in Romania and the need of seeing an exhibition digitally no matter the place or the pandemic circumstances.</p>
+            <div class="button-wrap">
+                <button>Discover</button>
+                <button>NFT Exhibition</button>
+            </div>
         </div>
-    </nav>
+    </div>
+
+    <div class="right-side">
+        <img th:src="@{/css/img/Safari • Dark Mode ON.svg}" alt="screenshot">
+    </div>
+</div>
+
+<div class="second-container">
+    <h1>Our newest exhibitions</h1>
+
+    <div class="cards">
+        <div class="card">
+            <div class="img-placeholder"></div>
+            <div class="info">
+                <h1>Digital Arts by Mara Pascu</h1>
+                <p>A visual representation of an extrapolated world ruled by bauhaus and organic desintegrations, solved by the empathy of pixels</p>
+            </div>
+            <button>Join</button>
+        </div>
+        <div class="card">
+            <div class="img-placeholder"></div>
+            <div class="info">
+                <h1>Raw Typography by Cosmin Bala</h1>
+                <p>A visual representation of an extrapolated world ruled by bauhaus and organic desintegrations, solved by the empathy of pixels</p>
+            </div>
+            <button>Join</button>
+        </div>
+        <div class="card">
+            <div class="img-placeholder"></div>
+            <div class="info">
+                <h1>Rising Fauna NFTs by Andrei Rata</h1>
+                <p>A visual representation of an extrapolated world ruled by bauhaus and organic desintegrations, solved by the empathy of pixels</p>
+            </div>
+            <button>Join</button>
+        </div>
+    </div>
+</div>
+<div class="news">
+    <h2>NEW - CREATE YOUR OWN NFT EXHIBITION WITH YOUR OWN METAMASK WALLET</h2>
+</div>
+
+<div class="toggle">
+    <input type="checkbox" class="checkbox" id="chk" />
+    <label class="label" for="chk">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+        <div class="ball"></div>
+    </label>
+</div>
+
+<div class="lines1">
+    <img th:src="@{/css/img/lines1.svg}" alt="">
+</div>
+<!-- DARK MODE -->
+<script>
+    const chk = document.getElementById('chk');
+
+    chk.addEventListener('change', () => {
+        document.documentElement.classList.toggle('dark-mode');
+
+        document.querySelectorAll('.inverted').forEach((result) => {
+            result.classList.toggle('invert');
+        })
+    });
+
+</script>
+
+
 
 </body>
 </html>
