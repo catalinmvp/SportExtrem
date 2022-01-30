@@ -11,6 +11,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
@@ -27,6 +28,7 @@ public class User implements UserDetails {
     private String username;
     private String email;
     private String password;
+    private String role;
 
     public User(String name, String username, String password) {
         this.name = name;
@@ -39,6 +41,14 @@ public class User implements UserDetails {
         this.username = username;
         this.email = email;
         this.password = password;
+    }
+
+    public User(String name, String username, String email, String password, String role) {
+        this.name = name;
+        this.username = username;
+        this.email = email;
+        this.password = password;
+        this.role = role;
     }
 
     public long getId() {
@@ -73,21 +83,39 @@ public class User implements UserDetails {
         this.password = password;
     }
 
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+
     @Override
-    public String toString(){
-        return "User{"+
+    public String toString() {
+        return "User{" +
                 "id=" + id +
-                ", name='" + name + '\''+
-                ", username='" + username + '\''+
-                ", email='" + email + '\''+
-                ", password='" + password + '\''+
+                ", name='" + name + '\'' +
+                ", username='" + username + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", role='" + role + '\'' +
                 '}';
     }
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return List.of(new SimpleGrantedAuthority("ROLE_USER"));
+
+        List<SimpleGrantedAuthority> authorities = new ArrayList<>();
+
+
+        authorities.add(new SimpleGrantedAuthority(role));
+
+
+        return authorities;
+        //return List.of(new SimpleGrantedAuthority("ROLE_USER"));
     }
+
 
     @Override
     public String getPassword() {

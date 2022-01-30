@@ -33,6 +33,7 @@ public class RegisterController {
 
         PasswordEncoder crypt = new BCryptPasswordEncoder();
         user.setPassword(crypt.encode(user.getPassword()));
+        user.setRole("ROLE_USER");
         userService.save(user);
         System.out.println("Registration succeded!");
         return "welcome";

@@ -17,7 +17,7 @@ public class Main {
         ApplicationContext ctx = SpringApplication.run(Main.class, args);
         UserService userService = ctx.getBean(UserService.class);
         PasswordEncoder crypt = new BCryptPasswordEncoder();
-        User u1 = new User("DOO DOO","doodoo","doodoo@yahoo.com",crypt.encode("doodoo"));
+        User u1 = new User("DOO DOO","doodoo","doodoo@yahoo.com",crypt.encode("doodoo"),"ROLE_ADMIN");
         System.out.println("Users available: " + u1);
         userService.save(u1);
 
