@@ -5,10 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa5955cc-2847-46b3-880f-f76977de5876" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/AboutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/img/Safari • Dark Mode ON.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/img/lines1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/img/maneta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/img/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/AboutController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/RegisterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/welcomepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/welcomepage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/welcomepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/welcomepage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/Register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/welcome.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +50,8 @@
       <list>
         <option value="Interface" />
         <option value="CSS File" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -32,6 +62,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="23YCFD6KsAFLih7bzgHo35VXl1q" />
   <component name="ProjectLevelVcsManager">
@@ -52,23 +90,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\anul 4\New folder\Magnum-Opus-Hub---Virtual-Museum\src\main\resources\templates" />
       <recent name="D:\anul 4\New folder\Magnum-Opus-Hub---Virtual-Museum\src\main\resources\img" />
+      <recent name="D:\anul 4\New folder\Magnum-Opus-Hub---Virtual-Museum\src\main\resources\fonts" />
+      <recent name="D:\anul 4\New folder\Magnum-Opus-Hub---Virtual-Museum\src\main\resources\templates" />
       <recent name="D:\anul 4\New folder\Magnum-Opus-Hub---Virtual-Museum\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\anul 4\New folder\Magnum-Opus-Hub---Virtual-Museum\src\main\resources\static\css" />
+      <recent name="D:\anul 4\New folder\Magnum-Opus-Hub---Virtual-Museum\src\main\resources\img" />
       <recent name="D:\anul 4\New folder\Magnum-Opus-Hub---Virtual-Museum\src\main\resources" />
       <recent name="D:\anul 4\New folder\Magnum-Opus-Hub---Virtual-Museum\src\main\resources\static" />
       <recent name="D:\anul 4\New folder\Magnum-Opus-Hub---Virtual-Museum\src\main\resources\static\templates" />
-      <recent name="D:\anul 4\New folder\Magnum-Opus-Hub---Virtual-Museum\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.DemoApplication">
@@ -130,7 +172,9 @@
       <workItem from="1641901533274" duration="1726000" />
       <workItem from="1642423058678" duration="9082000" />
       <workItem from="1642450169141" duration="424000" />
-      <workItem from="1643548555765" duration="3560000" />
+      <workItem from="1643548555765" duration="4226000" />
+      <workItem from="1643576361165" duration="1800000" />
+      <workItem from="1643578636602" duration="1917000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1641901952183</created>
@@ -174,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643550785817</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="final?">
+      <created>1643552488268</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1643552488268</updated>
+    </task>
+    <task id="LOCAL-00008" summary="final?">
+      <created>1643552519863</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1643552519863</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +257,17 @@
     <MESSAGE value="Final product" />
     <MESSAGE value="Final product xd" />
     <MESSAGE value="final?" />
-    <option name="LAST_COMMIT_MESSAGE" value="final?" />
+    <MESSAGE value="update de seara" />
+    <option name="LAST_COMMIT_MESSAGE" value="update de seara" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.thymeleaf.exceptions.TemplateProcessingException" package="org.thymeleaf.exceptions" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
