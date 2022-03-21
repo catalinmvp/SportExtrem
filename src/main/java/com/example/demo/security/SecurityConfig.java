@@ -47,15 +47,16 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
-                .antMatchers("/admin")
-                .hasRole("ADMIN")
-                .antMatchers(HttpMethod.POST, "/shop")
-                .hasAnyRole("ADMIN")
-                .antMatchers(HttpMethod.GET, "/shop")
-                .hasAnyRole("USER", "ADMIN")
-                .antMatchers("/", "/**")
-                .access("permitAll")
-                .and()
-                .formLogin();
+                .antMatchers("/admin").hasRole("ADMIN")
+                .antMatchers(HttpMethod.POST, "/locationadded").hasAnyRole("ADMIN")
+                .antMatchers(HttpMethod.GET, "/location").hasAnyRole("USER", "ADMIN")
+                .antMatchers("/", "/**").access("permitAll").and().formLogin();
+
+        http
+                .authorizeRequests()
+                .antMatchers("/users").hasRole("USER")
+                .antMatchers("/admin").hasRole("ADMIN")
+                .antMatchers(HttpMethod.POST, "/findlocations").hasAnyRole( "ADMIN")
+                .antMatchers("/", "/**").access("permitAll").and().formLogin();
     }
 }

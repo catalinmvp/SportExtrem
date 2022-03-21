@@ -5,39 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa5955cc-2847-46b3-880f-f76977de5876" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/AboutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fonts/Poppins-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/img/Safari • Dark Mode ON.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/img/lines1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/img/maneta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/img/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/AboutController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/welcomepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/welcomepage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/security/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/welcome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/welcomepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/welcomepage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/security/SecurityConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/Register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/welcome.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="CSS File" />
+        <option value="Interface" />
         <option value="HTML File" />
         <option value="Class" />
       </list>
@@ -106,23 +83,21 @@
       <recent name="D:\anul 4\New folder\Magnum-Opus-Hub---Virtual-Museum\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\anul 4\New folder\attat proj\src\main\resources\static\css\img" />
       <recent name="D:\anul 4\New folder\Magnum-Opus-Hub---Virtual-Museum\src\main\resources\static\css" />
       <recent name="D:\anul 4\New folder\Magnum-Opus-Hub---Virtual-Museum\src\main\resources\img" />
       <recent name="D:\anul 4\New folder\Magnum-Opus-Hub---Virtual-Museum\src\main\resources" />
       <recent name="D:\anul 4\New folder\Magnum-Opus-Hub---Virtual-Museum\src\main\resources\static" />
-      <recent name="D:\anul 4\New folder\Magnum-Opus-Hub---Virtual-Museum\src\main\resources\static\templates" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.DemoApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,6 +150,9 @@
       <workItem from="1643548555765" duration="4226000" />
       <workItem from="1643576361165" duration="1800000" />
       <workItem from="1643578636602" duration="1917000" />
+      <workItem from="1647865369332" duration="4033000" />
+      <workItem from="1647883232554" duration="1819000" />
+      <workItem from="1647886381088" duration="9034000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1641901952183</created>
